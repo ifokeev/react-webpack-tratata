@@ -12,10 +12,6 @@ const devServer = {
       '/api/v1/*': {
         target: 'http://localhost:3000',
         secure: false
-      },
-      '/spree/*': {
-        target: 'http://localhost:3000',
-        secure: false
       }
     }
   }

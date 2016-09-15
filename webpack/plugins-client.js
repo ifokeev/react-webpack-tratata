@@ -8,7 +8,6 @@ import NoErrorsPlugin from 'webpack/lib/NoErrorsPlugin';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
-// import BabiliPlugin from 'babili-webpack-plugin';
 import UglifyJsPlugin from 'webpack/lib/optimize/UglifyJsPlugin';
 
 import { extractAppCSS } from './sass-loader';
